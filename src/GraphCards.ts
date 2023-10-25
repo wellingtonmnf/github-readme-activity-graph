@@ -17,7 +17,7 @@ export class Card {
             width: this.width,
             height: this.height,
             axisY: {
-                title: 'Contributions',
+                title: 'Contribuições',
                 onlyInteger: true,
                 offset: 70,
                 labelOffset: {
@@ -26,7 +26,7 @@ export class Card {
                 low: 0,
             },
             axisX: {
-                title: 'Days',
+                title: 'Dias',
                 offset: 50,
                 labelOffset: {
                     x: -4.5,

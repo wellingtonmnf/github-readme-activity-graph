@@ -22,7 +22,7 @@ describe('SVG Testing', () => {
                 1200,
                 fakeQueryStringRes[0].radius,
                 fakeQueryStringRes[0].colors,
-                "xyz's Contribution Graph",
+                "xyz's Contribution Gráfico",
                 fakeQueryStringRes[0].area
             ).buildGraph([
                 {
