@@ -26,7 +26,7 @@ export class Card {
                 low: 0,
             },
             axisX: {
-                title: 'Days',
+                title: 'Dias',
                 offset: 50,
                 labelOffset: {
                     x: -4.5,
