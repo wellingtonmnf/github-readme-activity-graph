@@ -362,6 +362,26 @@ export const selectColors = (queryString: string): Colors => {
                 lineColor: '5DA3FA',
                 pointColor: '2827CC',
             };
+        case 'salesforce':
+            return {
+                areaColor: '00B1E8',
+                borderColor: '00A1E0',
+                bgColor: 'FFFFFF',
+                color: '00A1E0',
+                titleColor: '00A1E0',
+                lineColor: '00A1E0',
+                pointColor: '00B1E8',
+            };    
+        case 'salesforce_dark':
+            return {
+                areaColor: 'E6E6E6',
+                borderColor: 'FFFFFF',
+                bgColor: '00A1E0',
+                color: 'FFFFFF',
+                titleColor: 'FFFFFF',
+                lineColor: 'FFFFFF',
+                pointColor: 'E6E6E6',
+            };             
         default:
             return {
                 areaColor: '9e4c98',
